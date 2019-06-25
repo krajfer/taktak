@@ -33,15 +33,15 @@
             this.konwenterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jednostkiIMiaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.termometrToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bMIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wyjscieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.bmi1 = new kalku_all_in_one.BMI();
             this.temperatura1 = new kalku_all_in_one.Temperatura();
             this.kalkulator1 = new kalku_all_in_one.Kalkulator();
             this.konwenter1 = new kalku_all_in_one.konwenter();
             this.jednostki__i_miary1 = new kalku_all_in_one.Jednostki__i_miary();
-            this.bmi1 = new kalku_all_in_one.BMI();
-            this.bMIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -90,6 +90,13 @@
             this.termometrToolStripMenuItem.Text = "Termometr";
             this.termometrToolStripMenuItem.Click += new System.EventHandler(this.termometrToolStripMenuItem_Click);
             // 
+            // bMIToolStripMenuItem
+            // 
+            this.bMIToolStripMenuItem.Name = "bMIToolStripMenuItem";
+            this.bMIToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.bMIToolStripMenuItem.Text = "BMI";
+            this.bMIToolStripMenuItem.Click += new System.EventHandler(this.bMIToolStripMenuItem_Click);
+            // 
             // autorToolStripMenuItem
             // 
             this.autorToolStripMenuItem.Name = "autorToolStripMenuItem";
@@ -116,6 +123,14 @@
             this.panel1.Size = new System.Drawing.Size(722, 479);
             this.panel1.TabIndex = 1;
             // 
+            // bmi1
+            // 
+            this.bmi1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.bmi1.Location = new System.Drawing.Point(25, 7);
+            this.bmi1.Name = "bmi1";
+            this.bmi1.Size = new System.Drawing.Size(673, 440);
+            this.bmi1.TabIndex = 3;
+            // 
             // temperatura1
             // 
             this.temperatura1.Location = new System.Drawing.Point(104, 18);
@@ -125,6 +140,7 @@
             // 
             // kalkulator1
             // 
+            this.kalkulator1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.kalkulator1.Location = new System.Drawing.Point(0, 0);
             this.kalkulator1.Name = "kalkulator1";
             this.kalkulator1.Size = new System.Drawing.Size(722, 479);
@@ -133,6 +149,7 @@
             // 
             // konwenter1
             // 
+            this.konwenter1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.konwenter1.Location = new System.Drawing.Point(0, 0);
             this.konwenter1.Name = "konwenter1";
             this.konwenter1.Size = new System.Drawing.Size(775, 447);
@@ -140,32 +157,19 @@
             // 
             // jednostki__i_miary1
             // 
+            this.jednostki__i_miary1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.jednostki__i_miary1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.jednostki__i_miary1.Location = new System.Drawing.Point(0, 0);
             this.jednostki__i_miary1.Name = "jednostki__i_miary1";
             this.jednostki__i_miary1.Size = new System.Drawing.Size(722, 479);
             this.jednostki__i_miary1.TabIndex = 0;
             // 
-            // bmi1
-            // 
-            this.bmi1.Location = new System.Drawing.Point(25, 7);
-            this.bmi1.Name = "bmi1";
-            this.bmi1.Size = new System.Drawing.Size(673, 440);
-            this.bmi1.TabIndex = 3;
-            // 
-            // bMIToolStripMenuItem
-            // 
-            this.bMIToolStripMenuItem.Name = "bMIToolStripMenuItem";
-            this.bMIToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
-            this.bMIToolStripMenuItem.Text = "BMI";
-            this.bMIToolStripMenuItem.Click += new System.EventHandler(this.bMIToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.LightGray;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(724, 516);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);

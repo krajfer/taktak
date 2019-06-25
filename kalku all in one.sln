@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAIN", "kalku all in one\KA
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "instalacja", "instalacja\instalacja.vdproj", "{211B591C-1784-4A14-989D-EC203788CFD4}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalator", "Instalator\Instalator.vdproj", "{E4BA3E65-8C15-4D9C-8CCA-A0E7125E7EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAINTests", "KAINTests\KAINTests.csproj", "{57EA5595-5477-4002-AE26-567B8D782F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,12 @@ Global
 		{F6021FFC-60B1-4C70-AA43-C1FB3FF96239}.Release|Any CPU.Build.0 = Release|Any CPU
 		{211B591C-1784-4A14-989D-EC203788CFD4}.Debug|Any CPU.ActiveCfg = Debug
 		{211B591C-1784-4A14-989D-EC203788CFD4}.Release|Any CPU.ActiveCfg = Release
+		{E4BA3E65-8C15-4D9C-8CCA-A0E7125E7EA8}.Debug|Any CPU.ActiveCfg = Debug
+		{E4BA3E65-8C15-4D9C-8CCA-A0E7125E7EA8}.Release|Any CPU.ActiveCfg = Release
+		{57EA5595-5477-4002-AE26-567B8D782F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EA5595-5477-4002-AE26-567B8D782F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EA5595-5477-4002-AE26-567B8D782F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EA5595-5477-4002-AE26-567B8D782F2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

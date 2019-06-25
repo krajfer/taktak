@@ -16,11 +16,16 @@ namespace kalku_all_in_one
         {
             InitializeComponent();
         }
-
+        ///połaczenie się z stroną która Oblicza BMI
         private void button1_Click(object sender, EventArgs e)
         {
-            //połaczenie się z stroną która Oblicza BMI
+            
             webBrowser1.Navigate("http://oblicz-bmi.pl/");
+
+        }
+
+        private void BMI_Load(object sender, EventArgs e)
+        {
 
         }
     }

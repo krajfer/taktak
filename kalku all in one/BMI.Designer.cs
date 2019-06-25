@@ -68,11 +68,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.webBrowser1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "BMI";
             this.Size = new System.Drawing.Size(673, 440);
+            this.Load += new System.EventHandler(this.BMI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
